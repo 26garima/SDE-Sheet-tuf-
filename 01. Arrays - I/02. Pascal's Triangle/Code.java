@@ -33,3 +33,6 @@ public class Solution {
         return res;
     }
 }
+
+// Time Complexity : O(n*n)
+// Space Complexity : O(1)
