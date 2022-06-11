@@ -3,7 +3,6 @@ class Solution {
         int res = 0;
         int l = 0, r = 0;
         HashSet<Character> set = new HashSet<>();
-        int i = 0;
         while(r < s.length()) {
             if(!set.contains(s.charAt(r))) {
                 set.add(s.charAt(r));
